@@ -29,7 +29,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #7b7b7b;
+    color: #f44242;
     text-decoration: none;
     outline: none;
 }
@@ -263,7 +263,12 @@ hr {
     -webkit-filter: grayscale(0%);
 }
 
+
 .logo {
     width: 9%;
-    align: left;
+}
+
+
+.logo-text {
+    font-size: 30px;
 }
