@@ -272,3 +272,67 @@ hr {
 .logo-text {
     font-size: 30px;
 }
+
+.wid {
+    margin: 40px 0 40px 0;
+}
+.wid h4 {
+    font-size: 30px;
+}
+
+.news {
+    margin-top: 150px;
+}
+
+/*--------------------weather----------------------*/
+
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#weather {
+    margin-top: 50px;
+    font-family: Verdana;
+    color: #e0e0e0;
+    text-align: center;
+    background-color: #2d6987;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#noweather {
+    height: 160px;
+    background-color: #2d6987;
+    color: #e0e0e0;
+    font-family: Verdana;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#weather h2 {
+    color: #e0e0e0;
+    font-size: 40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.alert {
+    padding: 7px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 0;
+    height: 40px;
+}
